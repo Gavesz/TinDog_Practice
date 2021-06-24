@@ -1,0 +1,136 @@
+/*Font-Families
+font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif;*/
+
+/**********************TAG STYLES*******************************************/
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.2;
+    font-weight: 900;
+
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.1;
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/**********************CLASS STYLES*******************************************/
+.container-fluid {
+    padding: 3% 15%;
+}
+
+
+/**********************ID STYLES**************************************/
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+
+/**********************NAVIGATION BAR**************************************/
+
+.navbar {
+    padding: 0 0 2.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+}
+
+/********************************** DOWNLOAD BUTTON */
+.download-btn {
+    margin: 5% 3% 5% 0;
+}
+
+/******************************* TITLE IMAGE */
+.phone-dog {
+    width: 60%;
+    transform: rotate(30deg);
+    display: block;
+}
+
+/********************************* Features */
+#features {
+    text-align: center;
+    margin: 10% auto;
+    color: slategrey;
+}
+
+.features-FA {
+    font-size: 3rem;
+    color: #ff4c68;
+    margin-bottom: 1.5rem;
+}
+
+.features-FA:hover {
+    color: #ca1e38;
+}
+
+#features h3 {
+    font-weight: bold;
+}
+
+/********************************* Testimonials */
+#testimonials {
+    background-color: #ff4c68;
+    color: white;
+    text-align: center;
+}
+
+.testemonial-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 1.1rem;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/********************************* Press */
+
+#press {
+    background-color: #ff4c68;
+    color: white;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-images {
+    width: 5%;
+    margin: 1rem 2rem;
+}
+
+/************************ pricing section */
+
+#pricing{
+    padding: 7% 15%;
+    text-align: center;
+    color: slategrey;
+}
+#pricing p{
+    margin-bottom: 2rem;
+}
+.pricing-colum{
+    padding:3% 2%;
+}
